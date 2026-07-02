@@ -1,0 +1,3 @@
+root@828f023011cb:/# apt-get update
+root@828f023011cb:/# apt-get -y install nano
+root@828f023011cb:/# nano /usr/src/app/index.js
