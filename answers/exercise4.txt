@@ -1,0 +1,5 @@
+root@828f023011cb:/# apt-get -y install curl
+root@828f023011cb:/# curl -sL https://deb.nodesource.com/setup_24.x | bash
+root@828f023011cb:/# apt install -y nodejs
+root@828f023011cb:/# node /usr/src/app/index.js
+Hello World
