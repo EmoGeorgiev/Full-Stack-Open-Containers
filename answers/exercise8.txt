@@ -6,5 +6,5 @@ test> show dbs
 test> use the_database
 the_database> db.todos.find({})
 the_database> db.todos.insertOne({text: "Increase the number of tools in my tool belt", done: false})
-
-
+the_database> db.todos.find({})
+MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
